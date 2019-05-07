@@ -6,7 +6,6 @@
 	       <meta name ="author" content ="Johann Pohl">
 	       <meta name ="keywords" content ="Johann>
 	    </head>
-		<body bgcolr = "red">
-		
+		<body bgcolor= "black" text="blue">
 		</body>
-   </html>
+  </html>
