@@ -5,4 +5,7 @@ function click(){
 	
 	
 	
+	
 }
+
+document.getElementById("cookie").addEventListener("click", click);
