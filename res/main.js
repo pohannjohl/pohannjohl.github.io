@@ -7,5 +7,7 @@ function click(){
 	
 	
 }
-
-document.getElementById("cookie").addEventListener("click", click);
+function onlload(){
+	
+	document.getElementById("cookie").addEventListener("click", click);
+}
