@@ -1,1 +1,0 @@
-documend.getElementById("abc").innerHTML ="khgfdsayxcvbnm"
