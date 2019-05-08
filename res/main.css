@@ -1,7 +1,41 @@
 body{
 	background-color: #2fbbd4;
 }
-.cookie{
+#cookie{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+		
+
+	
+}
+
+
+#cookiecounter{
+	font-size: 30px;
+	position: absolute;
+	left: 49%;
+	top: 15%;
+	transform: translate(-50%,-50%);
+}
+
+#junge{
+position: absolute;
+left: 48.5%;
+top:30%;
+transform: translate(-50%,-50%);
+color: red;	
+font-size: 15px;	
+}
+
+#level{
+	position:absolute;
+	left: 52%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+	color: red;
+	font-size: 35px;
 	
 	
 }
