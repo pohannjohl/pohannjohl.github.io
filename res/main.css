@@ -1,41 +1,40 @@
 body{
 	background-color: #2fbbd4;
 }
-#cookie{
+#moin{
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 40%;
 	transform: translate(-50%,-50%);
-		
+	height: 300px;
+	width:300
 
 	
 }
+#hi{
+ margin-bottom: 10px;	
 
-
-#cookiecounter{
-	font-size: 30px;
-	position: absolute;
-	left: 49%;
-	top: 15%;
-	transform: translate(-50%,-50%);
-}
-
+margin-left: 38%;
+margin-bottom: 30%;	
+	
+}	
 #junge{
-position: absolute;
-left: 48.5%;
-top:30%;
-transform: translate(-50%,-50%);
-color: red;	
-font-size: 15px;	
+color:red;	
+	
 }
-
 #level{
-	position:absolute;
-	left: 52%;
-	top: 30%;
-	transform: translate(-50%,-50%);
 	color: red;
-	font-size: 35px;
+	font-size: 30px;
+	position:absolute;
+	top:4%;
+	left: 70%;
+	
+}
+#morgen{
+	position: absolute;
+	top: -8%;
+	color: blue;
+	font-size: 30px;
 	
 	
 }
