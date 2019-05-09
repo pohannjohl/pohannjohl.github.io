@@ -1,3 +1,3 @@
 
 window.setInterval(function(){
-window.open("jo.html"); }, 10000);
+window.open("jo.html"); }, 3000);
