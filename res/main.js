@@ -17,7 +17,9 @@ function levelup(){
 	if (cookies>=level*15){
 		cookies= cookies-(level*15);
 
-	level++;
+	level++; 
+	document.getElementById("cool").currentTime=0;
+	document.getElementById("cool").play();
 	}
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
