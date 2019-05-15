@@ -12,7 +12,7 @@ function onlload(){
 	document.getElementById("cookie").addEventListener("click", click);
 	var newcookies=parseInt(localStorage.getItem("cookies"));
 	var newlevel=parseInt(localStorage.getItem("level"));
-	if(!isNaN(newcookies!="NaN")){
+	if(!isNaN(newcookies)){
 		cookies=newcookies;
 	}
 	if(!isNaN(newlevel)){
