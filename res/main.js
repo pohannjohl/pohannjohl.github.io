@@ -2,14 +2,14 @@ var cookies= 0;
 function click(){
 	cookies= cookies +level;
 	document.getElementById("morgen").innerHTML= cookies;
-	
+	document.getElementById("bg").play();
 	
 	
 	
 }
 function onlload(){
-	
 	document.getElementById("cookie").addEventListener("click", click);
+	
 }
 
 var level= 1
@@ -26,4 +26,6 @@ function levelup(){
 
 	
 }
+
+
 
