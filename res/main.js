@@ -37,6 +37,18 @@ function levelup(){
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
 
+	if(level>50){
+		document.getElementById("cookie").src="res/level100.png";
+		
+		
+		
+		
+		
+	}
+		
+	
+	
+	
 	
 }
 
