@@ -12,10 +12,10 @@ function onlload(){
 	document.getElementById("cookie").addEventListener("click", click);
 	var newcookies=parseInt(localStorage.getItem("cookies"));
 	var newlevel=parseInt(localStorage.getItem("level"));
-	if(newcookies!=NaN){
+	if(!isNaN(newcookies!="NaN")){
 		cookies=newcookies;
 	}
-	if(newlevel!=NaN){
+	if(!isNaN(newlevel)){
 		level=newlevel;
 	}
 	document.getElementById("morgen").innerHTML= cookies;
