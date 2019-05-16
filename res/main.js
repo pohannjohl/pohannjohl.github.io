@@ -20,6 +20,11 @@ function levelup(){
 	level++; 
 	document.getElementById("cool").currentTime=0;
 	document.getElementById("cool").play();
+	level= 20
+	document.getElementById("hallo").currentTime=0;
+	document.getElementById("hallo").play();
+	
+	
 	}
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
