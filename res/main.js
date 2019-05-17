@@ -30,7 +30,7 @@ function onlload(){
 	document.getElementById("cookie").addEventListener("click", click);
 }
 
-var level= 1
+var level= 1;
 function levelup(){
 	if (cookies>=level*15){
 		cookies= cookies-(level*15);
@@ -39,6 +39,11 @@ function levelup(){
 		localStorage.setItem("level",level);
 		localStorage.setItem("cookies",cookies);
 		
+		
+		if (level>19){
+		document.getElementById("cool").src="res/werbung.mp4";	
+			
+		}
 		if (level>20){
 		document.getElementById("cool").src="res/anton.mp4";	
 		}
@@ -53,6 +58,11 @@ function levelup(){
 		  document.getElementById("cookie").src="res/bild.png";	
 			
 		}
+	if (level>69){
+	document.getElementById("cookie").src="res/smyli.png";	
+	}
+	
+	
 	}
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
