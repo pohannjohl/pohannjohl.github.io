@@ -39,30 +39,47 @@ function levelup(){
 		localStorage.setItem("level",level);
 		localStorage.setItem("cookies",cookies);
 		
-		
-		if (level>19){
+		if (level>9){
+		document.getElementById("cool").src="res/juhu.mp4";
+		}
+		if (level>18){
 		document.getElementById("cool").src="res/werbung.mp4";	
 			
 		}
-		if (level>20){
+		if (level>19){
 		document.getElementById("cool").src="res/anton.mp4";	
 		}
-	    
-	
+	    if (level>29){
+			document.getElementById("cool").src="res/ojear.mp4";
+		}
+	    if (level>39){
+		document.getElementById("cool").src="res/antoon.mp4";	
+		}
+		if (level>49){
+		document.getElementById("cool").src="res/min.mp4";	
+		}
+		
 		document.getElementById("cool").currentTime=0;
 		document.getElementById("cool").play();
+		
 		if (level>49){
 			document.getElementById("cookie").src="res/level100.png";	
 		}
 		if (level>59){
 		  document.getElementById("cookie").src="res/bild.png";	
+			}
 			
-		}
-	if (level>69){
+			
+			
+	 if (level>69){
 	document.getElementById("cookie").src="res/smyli.png";	
 	}
-	
-	
+	if (level>79){
+	document.getElementById("cookie").src="res/lila.png";	
+	}
+	if (level>89){ 
+	document.getElementById("cookie").src="res/grün.png";
+	}
 	}
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
