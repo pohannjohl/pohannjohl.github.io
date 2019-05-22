@@ -85,25 +85,22 @@ function levelup(){
 		document.getElementById("cool").currentTime=0;
 		document.getElementById("cool").play();
 
-		if (level>49){
+	if (level>49){
 			document.getElementById("cookie").src="res/level100.png";
-		}
-		if (level>59){
+	}
+	if (level>59){
 		  document.getElementById("cookie").src="res/bild.png";
-			}
-
-
-
-	 if (level>69){
-	document.getElementById("cookie").src="res/smyli.png";
+	}
+ 	if (level>69){
+		document.getElementById("cookie").src="res/smyli.png";
 	}
 	if (level>79){
-	document.getElementById("cookie").src="res/lila.png";
+		document.getElementById("cookie").src="res/lila.png";
 	}
 	if (level>89){
-	document.getElementById("cookie").src="res/grün.png";
+		document.getElementById("cookie").src="res/grün.png";
 	}
-	}
+}
 	document.getElementById("morgen").innerHTML= cookies;
 	document.getElementById("level").innerHTML= level;
 
